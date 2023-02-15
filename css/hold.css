@@ -5,8 +5,8 @@
   --color-text-1:#757575; 
   --color-text-2:#212121; 
   --color-text-3:#00665a;
-  --color-text-4:#414042;
-  --color-text-5:#78c2c5;
+  --color-text-4:#e5420e;
+  --color-text-5:#00675b;
   --color-text-6:#000000;
   --color-fb:#1877f2;
   --color-ig:#C13584;
@@ -14,7 +14,7 @@
   --color-wa:#2bb240;
   --color-tg:#0088cc;
   --color-tk:#FF0050;
-  --rounded-1:var(--size-1);
+  --rounded-1:var(--size-2);
   --hover-opacity:0.55;
   --transition-default:all 0.34s;
   --shadow-default:0 2px 10px rgb(0 0 0 / 25%);
@@ -42,6 +42,17 @@ opacity:var(--hover-opacity);}
 .thumb-loading:before{animation:skeleton-loading 0.5s linear infinite alternate; background-color:var(--color-text-2);}
 @-webkit-keyframes skeleton-loading{0%{opacity:0.05;}100%{opacity:0.15;};}
 @keyframes skeleton-loading{0%{opacity:0.05;}100%{opacity:0.15;};}
+
+
+
+.section-title{color:var(--color-text-5);}
+.section-title:before{background-color:var(--color-text-4);}
+
+
+
+.content-box{border-color:rgb(var(--color-border-dark) / 21%);}
+.content-thumb-frame{border-radius:var(--rounded-1);}
+.content-info-channel{color:var(--color-text-5);}
 
 
 

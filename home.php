@@ -8,7 +8,7 @@
 <?php require ($_SERVER['WATCHIS'].'inc/sample.php')?>
 <?php require ($_SERVER['WATCHIS'].'inc/meta.php')?>
 <div class="rancak-container">
-  <div class="header-home">
+  <section class="header-home">
     <div class="header-home-bg flex_ori thumb-loading">
 	  <img alt="img_title" class="lazyload" data-original="img/home-header.png" />
 	</div>
@@ -21,13 +21,18 @@
 	    <div class="hhc-bottom-date">2 Februari 2023 / 11 Rajab 1444</div>
 	  </div>
 	</div>
-  </div>
+  </section>
   
   
   
-  <div class="article-list">
-    
-  </div>
+  <section class="section-container section-article">
+    <div class="section-title">Info Watchis</div>
+	<div class="section-article-list">
+	  <?php for ($i=1; $i <= 10 ; $i++) { ?>
+	    <?php require ($_SERVER['WATCHIS'].'module/content-list.php')?>
+	  <?php } ?>
+	</div>
+  </section>
 </div>
 <?php require ($_SERVER['WATCHIS'].'inc/footer.php')?>
 <?php require ($_SERVER['WATCHIS'].'inc/menu.php')?>
