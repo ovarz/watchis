@@ -4,7 +4,7 @@
   --color-border-light:255 255 255;
   --color-text-1:#757575; 
   --color-text-2:#212121; 
-  --color-text-3:#2ba7db;
+  --color-text-3:#00665a;
   --color-text-4:#414042;
   --color-text-5:#78c2c5;
   --color-text-6:#000000;
@@ -33,8 +33,9 @@ a, button{color:var(--color-text-2); fill:var(--color-text-2);}
 a:hover, button:hover{color:var(--color-text-5); fill:var(--color-text-5);}
 .btn, a.btn, button.btn{background-color:var(--color-text-5); color:var(--bg-1); fill:var(--bg-1);}
 .btn:hover, a.btn:hover, button.btn:hover{background-color:var(--color-text-2);}
-#btt{position:fixed; bottom:calc(var(--size-6) + var(--size-4)); right:var(--size-4); cursor:pointer; z-index:calc(var(--max-zindex) - 10000); fill:var(--color-text-1);}
-#btt .svgicon{width:48px; height:auto;}
+#btt{position:fixed; bottom:calc(var(--size-6) + var(--size-4)); right:var(--size-4); cursor:pointer; z-index:calc(var(--max-zindex) - 10000); fill:var(--color-text-1);
+opacity:var(--hover-opacity);}
+#btt .svgicon{width:var(--size-5); height:auto;}
 #btt:hover, #btt:focus{fill:var(--color-text-5);}
 .flex_ori > img{opacity:0; transition:all 300ms;}
 .flex_ori > img.lazyloaded{opacity:1;}
