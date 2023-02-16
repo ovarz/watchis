@@ -25,6 +25,33 @@
   
   
   
+  <section class="section-container section-feature">
+    <?php 
+      $feature_array = array();
+      $feature_array[]=array('feature_name'=>'Ngaji Online', 'feature_icon'=>'ngaji', 'feature_link'=>'home');
+      $feature_array[]=array('feature_name'=>'Ngaji Online', 'feature_icon'=>'ngaji', 'feature_link'=>'home');
+      $feature_array[]=array('feature_name'=>'Ngaji Online', 'feature_icon'=>'ngaji', 'feature_link'=>'home');
+      $feature_array[]=array('feature_name'=>'Ngaji Online', 'feature_icon'=>'ngaji', 'feature_link'=>'home');
+      $feature_array[]=array('feature_name'=>'Ngaji Online', 'feature_icon'=>'ngaji', 'feature_link'=>'home');
+      $feature_array[]=array('feature_name'=>'Ngaji Online', 'feature_icon'=>'ngaji', 'feature_link'=>'home');
+      $feature_array[]=array('feature_name'=>'Ngaji Online', 'feature_icon'=>'ngaji', 'feature_link'=>'home');
+      $feature_array[]=array('feature_name'=>'Ngaji Online', 'feature_icon'=>'ngaji', 'feature_link'=>'home');
+      $feature_array[]=array('feature_name'=>'Ngaji Online', 'feature_icon'=>'ngaji', 'feature_link'=>'home');
+      $feature_array[]=array('feature_name'=>'Ngaji Online', 'feature_icon'=>'ngaji', 'feature_link'=>'home');
+      foreach($feature_array as $feature_list){ 
+    ?>
+      <a aria-label="<?php echo($feature_list['feature_name'])?>" title="<?php echo($feature_list['feature_name'])?>" class="section-feature-link" 
+	  href="<?php echo($feature_list['feature_link'])?>.php">
+        <div class="sfl-circle content_center">
+          <img alt="img_title" class="lazyload" data-original="img/icon/feature-<?php echo($feature_list['feature_icon'])?>.png" />
+        </div>
+        <div class="sfl-name"><?php echo($feature_list['feature_name'])?></div>
+      </a>
+    <?php } ?>
+  </section>
+  
+  
+  
   <section class="section-container section-fb">
     <div class="section-fb-slide">
       <a aria-label="Link_Title" title="Link_Title" class="sfs-box" href="home.php">

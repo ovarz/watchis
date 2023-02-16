@@ -67,6 +67,13 @@ display:grid; grid-template-columns:repeat(5,1fr);}
 
 
 
+.section-feature{--box-width:140px; display:flex; flex-wrap:wrap; justify-content:center;}
+.section-feature-link{margin:var(--size-2); width:var(--box-width);}
+.sfl-circle{width:var(--box-width); height:var(--box-width);}
+.sfl-circle img{width:50%; height:50%;}
+
+
+
 .sfs-banner:before{padding-top:33.54%;}
 
 
@@ -77,6 +84,7 @@ display:grid; grid-template-columns:repeat(5,1fr);}
 .sec-title{font-size:18px;}
 .sec-title b{font-size:21px;}
 .sec-info{padding-bottom:var(--size-3); margin-bottom:var(--size-3); border-bottom:1px solid;}
+.sec-address{font-size:12px;}
 
 
 
