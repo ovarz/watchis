@@ -25,6 +25,13 @@
   --shadow-inset:inset -2px -2px 4px rgba(255,255,255,.2), inset 2px 2px 12px rgba(0,0,0,.2);
 }
 
+.theme-dark, .theme-dark :before, .theme-dark :after{
+  --bg-3:#212121; 
+  --color-text-1:#BDBDBD; 
+  --color-text-2:#FFFFFF;
+  --color-text-6:#EEEEEE;
+}
+
 
 
 body, html{color:var(--color-text-1);}

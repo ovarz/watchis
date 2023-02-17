@@ -18,6 +18,10 @@
   --bg-2:#FFFFFF; 
 }
 
+.theme-dark, .theme-dark :before, .theme-dark :after{
+  --bg-1:#1f2125; 
+  --bg-2:#000000; 
+}
 
 
 body, html{font-family:'Poppins',sans-serif; font-size:var(--default-fontsize); font-weight:400; letter-spacing:0.4px; font-feature-settings:'lnum' 1; 

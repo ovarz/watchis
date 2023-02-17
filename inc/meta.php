@@ -46,4 +46,4 @@
 
 <link rel="stylesheet" type="text/css" href="css/rancak.css?<?php echo $anticache; ?>"/>
 </head>
-<body>
+<body class="theme-<?php echo $theme; ?>">

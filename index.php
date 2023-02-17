@@ -1,4 +1,5 @@
 <?php 
+  $theme='light';
   $page='intro';
   $channel='';
   $slideshow='no';
