@@ -9,9 +9,7 @@
 <?php require ($_SERVER['WATCHIS'].'inc/sample.php')?>
 <?php require ($_SERVER['WATCHIS'].'inc/meta.php')?>
 <div class="rancak-container">
-  <section class="section-container section-feature">
-    tes
-  </section>
+  <?php $head_label='Surah'; require ($_SERVER['WATCHIS'].'module/ayat-head.php')?>
 </div>
 <?php require ($_SERVER['WATCHIS'].'inc/menu.php')?>
 <?php require ($_SERVER['WATCHIS'].'inc/base-bottom.php')?>

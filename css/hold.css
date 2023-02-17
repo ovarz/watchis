@@ -30,6 +30,8 @@
   --color-text-1:#BDBDBD; 
   --color-text-2:#FFFFFF;
   --color-text-6:#EEEEEE;
+  --color-border-light:0 0 0;
+  --color-border-dark:255 255 255;
 }
 
 
@@ -90,6 +92,13 @@ menu{box-shadow:0 -1px 8px rgb(0 0 0 / 13%);}
 .feed-info{color:var(--color-text-2);}
 .feed-comment-show{color:var(--color-text-1);}
 .feed-comment-field:focus{border-bottom:1px solid rgb(var(--color-border-dark) / 21%);}
+
+
+
+.sah-search-button{fill:var(--color-text-1);}
+.sah-search-field{background-color:var(--color-text-2); color:var(--bg-2); border-radius:var(--size-5);}
+
+.sah-populer-link{border-color:rgb(var(--color-border-dark) / 21%);}
 
 
 

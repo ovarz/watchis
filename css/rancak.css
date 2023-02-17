@@ -133,3 +133,19 @@ display:-webkit-box; -webkit-box-orient:vertical; -webkit-line-clamp:1; overflow
 .feed-comment-field{width:100%; background-color:transparent; border:0;}
 
 
+
+.section-ayat-head{display:grid; grid-gap:var(--size-4);}
+
+.sah-bismillah-frame{width:100%; max-width:360px;}
+.sah-bismillah-frame:before{padding-top:13.95%;}
+.sah-search{--icon-size:48px; position:relative;}
+.sah-search-field, .sah-search-button{height:var(--icon-size);}
+.sah-search-field{width:100%; position:relative; z-index:1; padding:0 var(--icon-size);}
+.sah-search-button{position:absolute; top:0; width:var(--icon-size); z-index:1000;}
+.sah-search-left{left:0;}
+.sah-search-right{right:0;}
+
+.sah-populer-list{display:flex; flex-wrap:wrap;}
+.sah-populer-link{margin-right:var(--size-4); margin-top:var(--size-1); font-weight:normal; border-bottom:1px solid;}
+
+
