@@ -26,6 +26,5 @@
 	</div>
   </section>
 </div>
-<?php require ($_SERVER['WATCHIS'].'inc/footer.php')?>
 <?php require ($_SERVER['WATCHIS'].'inc/menu.php')?>
 <?php require ($_SERVER['WATCHIS'].'inc/base-bottom.php')?>
