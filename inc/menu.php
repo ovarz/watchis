@@ -9,7 +9,7 @@
     $menu_array[]=array(
       'menu_name'=>'Sosial Media',
       'menu_icon'=>'socmed',
-      'menu_link'=>'home'
+      'menu_link'=>'socmed'
     );
     $menu_array[]=array(
       'menu_name'=>'Video',

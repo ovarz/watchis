@@ -54,10 +54,11 @@ opacity:var(--hover-opacity);}
 
 
 menu{box-shadow:0 -1px 8px rgb(0 0 0 / 13%);}
+.menu-curr{color:var(--color-text-5) !important; fill:var(--color-text-5) !important;}
 
 
 
-.sfl-circle{border-radius:50%; background:var(--bg-5);}
+.sfl-circle{border-radius:50%; background:var(--bg-4); border-color:var(--bg-5);}
 
 
 

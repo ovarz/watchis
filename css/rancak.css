@@ -67,10 +67,11 @@ display:grid; grid-template-columns:repeat(5,1fr);}
 
 
 
-.section-feature{--box-width:140px; display:flex; flex-wrap:wrap; justify-content:center;}
-.section-feature-link{margin:var(--size-2); width:var(--box-width);}
-.sfl-circle{width:var(--box-width); height:var(--box-width);}
-.sfl-circle img{width:50%; height:50%;}
+.section-feature{--box-width:80px; display:flex; flex-wrap:wrap; justify-content:center;}
+.section-feature-link{margin:var(--size-3); width:var(--box-width);}
+.sfl-circle{width:var(--box-width); height:var(--box-width); border:2px solid;}
+.sfl-circle img{width:auto; height:55%;}
+.sfl-name{font-weight:normal; text-align:center; font-size:12px; margin-top:var(--size-1);}
 
 
 
