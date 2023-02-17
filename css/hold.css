@@ -58,7 +58,7 @@ opacity:var(--hover-opacity);}
 
 
 menu{box-shadow:0 -1px 8px rgb(0 0 0 / 13%);}
-.menu-curr{background-color:var(--color-text-3) !important; color:var(--bg-2) !important; fill:var(--bg-2) !important;}
+.menu-curr{background-color:var(--color-text-3) !important; color:#FFFFFF !important; fill:#FFFFFF !important;}
 
 
 
