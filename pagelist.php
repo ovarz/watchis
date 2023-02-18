@@ -26,6 +26,9 @@
       <li>
         <a class="pagelist-row" href="socmed.php">Halaman Social Media</a>
       </li>
+      <li>
+        <a class="pagelist-row" href="alquran.php">Halaman Al-Quran</a>
+      </li>
     </ul>
   </div>
 </div>
