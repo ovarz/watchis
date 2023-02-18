@@ -26,7 +26,7 @@
 }
 
 .theme-dark, .theme-dark :before, .theme-dark :after{
-  --bg-3:#212121; 
+  --bg-3:#343a3f; 
   --color-text-1:#BDBDBD; 
   --color-text-2:#FFFFFF;
   --color-text-6:#EEEEEE;
@@ -56,6 +56,9 @@ opacity:var(--hover-opacity);}
 
 .section-title{color:var(--color-text-5);}
 .section-title:before{background-color:var(--color-text-4);}
+.section-ayat-title, .section-ayat-tab{border-color:rgb(var(--color-border-dark) / 21%);}
+.ayat-tab-button{border-color:transparent;}
+.sat-label, .ayat-tab-curr{border-color:var(--color-text-2);}
 
 
 
@@ -95,10 +98,21 @@ menu{box-shadow:0 -1px 8px rgb(0 0 0 / 13%);}
 
 
 
+.ayat-box{border-color:rgb(var(--color-border-dark) / 21%); border-radius:var(--rounded-1);}
+.ayat-box-number-rotate{background-color:var(--bg-3);}
+.ayat-box-subtitle, .ayat-box-total{color:var(--color-text-1);}
+
+
+
 .sah-search-button{fill:var(--color-text-1);}
 .sah-search-field{background-color:var(--color-text-2); color:var(--bg-2); border-radius:var(--size-5);}
 
 .sah-populer-link{border-color:rgb(var(--color-border-dark) / 21%);}
+
+
+
+.ayat-history-box{border-radius:var(--rounded-2); background-color:var(--bg-3);}
+.ahb-number{color:var(--color-text-1);}
 
 
 
