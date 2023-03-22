@@ -15,7 +15,7 @@
 	<div class="doa-list-container">
 	  <?php 
         $doa_array = array();
-        $doa_array[]=array('doa_label'=>"Sholawat Asyghill", 'doa_link'=>'sholawat-detail');
+        $doa_array[]=array('doa_label'=>"Sholawat Asyghil", 'doa_link'=>'sholawat-detail');
         $doa_array[]=array('doa_label'=>"Sholawat Thibbil Qulub", 'doa_link'=>'sholawat-detail');
         $doa_array[]=array('doa_label'=>"Sholawat Munijyat", 'doa_link'=>'sholawat-detail');
         $doa_array[]=array('doa_label'=>"Sholawat Nariyah", 'doa_link'=>'sholawat-detail');
