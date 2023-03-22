@@ -64,6 +64,11 @@
   <link rel="stylesheet" type="text/css" href="css/profile.css?<?php echo $anticache; ?>"/>
 <?php } ?>
 
+<?php if($page == 'zakat') { ?>
+  <link rel="preload" href="css/zakat.css?<?php echo $anticache; ?>" as="style">
+  <link rel="stylesheet" type="text/css" href="css/zakat.css?<?php echo $anticache; ?>"/>
+<?php } ?>
+
 <link rel="stylesheet" type="text/css" href="css/rancak.css?<?php echo $anticache; ?>"/>
 </head>
 <body class="theme-<?php echo $theme; ?>">

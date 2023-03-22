@@ -3,9 +3,7 @@
 .lrc-form{display:grid; grid-gap:var(--size-4);}
 .lrc-box{position:relative;}
 .lrc-label{margin-bottom:var(--size-1);}
-.lrc-field{position:relative; z-index:1000; width:100%; padding:var(--size-3); background-color:transparent;
-border:1px solid rgb(var(--color-border-dark) / 21%); border-radius:var(--rounded-1);}
-.lrc-field::placeholder{color:rgb(var(--color-border-dark) / 21%);}
+.lrc-field{z-index:1000;}
 .lrc-note{margin-top:var(--size-1); font-size:11px;}
 .lrc-icon{position:absolute; z-index:1; top:0; right:0; width:var(--size-6); height:100%;}
 .lrc-password .lrc-field{padding-right:var(--size-6);}

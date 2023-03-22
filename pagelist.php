@@ -60,6 +60,17 @@
           </li>
 		</ul>
       </li>
+      <li>
+        <div class="pagelist-row">Halaman Sholawat</div>
+		<ul>
+          <li>
+            <a class="pagelist-row" href="sholawat.php">Halaman Daftar Sholawat</a>
+          </li>
+          <li>
+            <a class="pagelist-row" href="sholawat-detail.php">Halaman Detail Sholawat</a>
+          </li>
+		</ul>
+      </li>
     </ul>
   </div>
 </div>

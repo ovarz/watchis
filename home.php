@@ -36,7 +36,7 @@
       $feature_array[]=array('feature_name'=>'Info Watchis', 'feature_icon'=>'info', 'feature_link'=>'home');
       $feature_array[]=array('feature_name'=>'Peta', 'feature_icon'=>'peta', 'feature_link'=>'home');
       $feature_array[]=array('feature_name'=>'Kurban', 'feature_icon'=>'kurban', 'feature_link'=>'home');
-      $feature_array[]=array('feature_name'=>'Zakat', 'feature_icon'=>'zakat', 'feature_link'=>'home');
+      $feature_array[]=array('feature_name'=>'Zakat', 'feature_icon'=>'zakat', 'feature_link'=>'zakat');
       $feature_array[]=array('feature_name'=>'Sedekah', 'feature_icon'=>'sedekah', 'feature_link'=>'home');
       $feature_array[]=array('feature_name'=>'Lainnya', 'feature_icon'=>'lainnya', 'feature_link'=>'home');
       foreach($feature_array as $feature_list){ 

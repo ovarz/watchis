@@ -1,0 +1,4 @@
+.zakat-tab{grid-template-columns:repeat(2,1fr);}
+.zakat-list{display:grid; grid-gap:var(--size-4);}
+.zakat-label{margin-bottom:var(--size-1);}
+.zakat-button{width:100%;}

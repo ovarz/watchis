@@ -27,11 +27,11 @@
         $doa_array[]=array('doa_label'=>"Do'a Agar Hati Tergerak Untuk Ibadah", 'doa_link'=>'doa-detail');
 	    foreach($doa_array as $doa_list){ 
 	  ?>
-	  <a aria-label="<?php echo($doa_list['doa_label'])?>" title="<?php echo($doa_list['doa_label'])?>" class="dlc-box" 
-	  href="<?php echo($doa_list['doa_link'])?>.php">
-		<div class="dlc-label"><?php echo($doa_list['doa_label'])?></div>
-		<div class="dlc-arrow content_center"><?php require ($_SERVER['WATCHIS'].'img/icon/next.svg')?></div>
-	  </a>
+        <a aria-label="<?php echo($doa_list['doa_label'])?>" title="<?php echo($doa_list['doa_label'])?>" class="dlc-box" 
+        href="<?php echo($doa_list['doa_link'])?>.php">
+          <div class="dlc-label"><?php echo($doa_list['doa_label'])?></div>
+          <div class="dlc-arrow content_center"><?php require ($_SERVER['WATCHIS'].'img/icon/next.svg')?></div>
+        </a>
 	  <?php } ?>
 	</div>
   </section>

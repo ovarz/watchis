@@ -54,7 +54,10 @@ opacity:var(--hover-opacity);}
 
 
 
-.search-field{border-color:rgb(var(--color-border-dark) / 21%); background-color:transparent; border-radius:var(--rounded-1);}
+.default-field{border-color:rgb(var(--color-border-dark) / 13%); background-color:transparent; border-radius:var(--rounded-1);}
+.default-field::placeholder{color:rgb(var(--color-border-dark) / 21%);}
+.default-tab-link{color:var(--color-text-1); border-color:rgb(var(--color-border-dark) / 13%);}
+.default-tab-curr{color:var(--color-text-2); border-color:var(--color-text-2);}
 
 
 
