@@ -109,6 +109,15 @@ display:grid; grid-template-columns:repeat(5,1fr);}
 
 
 
+.profile-head{--thumb-size:76px; display:grid; grid-template-columns:var(--thumb-size) 1fr; grid-gap:var(--size-3);}
+.profile-thumb{border:2px solid;}
+.profile-thumb:before{padding-top:100%;}
+.profile-head-right{display:grid; grid-gap:var(--size-1); grid-auto-rows:min-content; align-content:center;}
+.profile-name{font-weight:bold; font-size:18px; line-height:150%;}
+.profile-phone{font-size:11px;}
+
+
+
 .section-story-list::-webkit-scrollbar, .ayat-history-container::-webkit-scrollbar, .ayat-bookmark-container::-webkit-scrollbar{height:1px;}
 
 

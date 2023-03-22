@@ -3,7 +3,7 @@
   $page='login-regis';
   $login='no';
   $channel='register';
-  $slideshow='yes';
+  $slideshow='no';
   $search_page='cari/'; 
   require ('inc/base.php')
 ?>

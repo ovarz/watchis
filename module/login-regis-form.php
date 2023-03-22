@@ -26,15 +26,22 @@
         </div>
 	  <?php } ?>
 	  
-      <div class="lrc-row <?php if($form_error == 'yes') { ?>lrc-error<?php } ?>">
-        <div class="lrc-label">Nomor KTP</div>
+      <div class="lrc-row">
+        <div class="lrc-label">Nomor Telepon</div>
         <div class="lrc-box">
-          <input class="lrc-field" placeholder="Masukan nomor KTP anda" type="text" onkeypress="return (event.charCode !=8 &amp;&amp; event.charCode ==0 || (event.charCode >= 48 &amp;&amp; event.charCode <= 57))">
+          <input class="lrc-field" placeholder="Masukan nomor telepon anda" type="text" onkeypress="return (event.charCode !=8 &amp;&amp; event.charCode ==0 || (event.charCode >= 48 &amp;&amp; event.charCode <= 57))">
         </div>
-        <?php if($form_error == 'yes') { ?><div class="lrc-note">KTP sudah terdaftar</div><?php } ?>
       </div>
 	  
 	  <?php if($form_type == 'register') { ?>
+        <div class="lrc-row <?php if($form_error == 'yes') { ?>lrc-error<?php } ?>">
+          <div class="lrc-label">Nomor KTP</div>
+          <div class="lrc-box">
+            <input class="lrc-field" placeholder="Masukan nomor KTP anda" type="text" onkeypress="return (event.charCode !=8 &amp;&amp; event.charCode ==0 || (event.charCode >= 48 &amp;&amp; event.charCode <= 57))">
+          </div>
+          <?php if($form_error == 'yes') { ?><div class="lrc-note">KTP sudah terdaftar</div><?php } ?>
+        </div>
+	  
         <div class="lrc-row lrc-birthday">
           <div class="lrc-label">Tanggal Lahir</div>
           <div class="lrc-box" id="pilihtanggal">

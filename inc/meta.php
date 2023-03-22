@@ -59,6 +59,11 @@
   <link rel="stylesheet" type="text/css" href="css/login-regis.css?<?php echo $anticache; ?>"/>
 <?php } ?>
 
+<?php if($page == 'profile') { ?>
+  <link rel="preload" href="css/profile.css?<?php echo $anticache; ?>" as="style">
+  <link rel="stylesheet" type="text/css" href="css/profile.css?<?php echo $anticache; ?>"/>
+<?php } ?>
+
 <link rel="stylesheet" type="text/css" href="css/rancak.css?<?php echo $anticache; ?>"/>
 </head>
 <body class="theme-<?php echo $theme; ?>">
