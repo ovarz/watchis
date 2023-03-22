@@ -30,12 +30,12 @@
 	<div class="profile-list-container">
 	  <?php 
         $profile_array = array();
-        $profile_array[]=array('profile_icon'=>'home', 'profile_label'=>'Ubah Profil', 'profile_link'=>'profile');
+        $profile_array[]=array('profile_icon'=>'edit', 'profile_label'=>'Ubah Profil', 'profile_link'=>'profile');
 	    foreach($profile_array as $profile_list){ 
 	  ?>
 	  <a aria-label="<?php echo($profile_list['profile_label'])?>" title="<?php echo($profile_list['profile_label'])?>" class="plc-box" 
 	  href="<?php echo($profile_list['profile_link'])?>.php">
-	    <div class="plc-icon content_center"><?php require ($_SERVER['WATCHIS'].'img/icon/'.$profile_list['profile_icon'].'.svg')?></div>
+	    <div class="plc-icon content_center"><?php require ($_SERVER['WATCHIS'].'img/icon/profile-'.$profile_list['profile_icon'].'.svg')?></div>
 		<div class="plc-label"><?php echo($profile_list['profile_label'])?></div>
 		<div class="plc-arrow content_center"><?php require ($_SERVER['WATCHIS'].'img/icon/next.svg')?></div>
 	  </a>
@@ -50,13 +50,13 @@
 	<div class="profile-list-container">
 	  <?php 
         $profile_array = array();
-        $profile_array[]=array('profile_icon'=>'home', 'profile_label'=>'Password', 'profile_link'=>'profile');
-        $profile_array[]=array('profile_icon'=>'home', 'profile_label'=>'Kode Pos', 'profile_link'=>'profile');
+        $profile_array[]=array('profile_icon'=>'password', 'profile_label'=>'Password', 'profile_link'=>'profile');
+        $profile_array[]=array('profile_icon'=>'pobox', 'profile_label'=>'Kode Pos', 'profile_link'=>'profile');
 	    foreach($profile_array as $profile_list){ 
 	  ?>
 	  <a aria-label="<?php echo($profile_list['profile_label'])?>" title="<?php echo($profile_list['profile_label'])?>" class="plc-box" 
 	  href="<?php echo($profile_list['profile_link'])?>.php">
-	    <div class="plc-icon content_center"><?php require ($_SERVER['WATCHIS'].'img/icon/'.$profile_list['profile_icon'].'.svg')?></div>
+	    <div class="plc-icon content_center"><?php require ($_SERVER['WATCHIS'].'img/icon/profile-'.$profile_list['profile_icon'].'.svg')?></div>
 		<div class="plc-label"><?php echo($profile_list['profile_label'])?></div>
 		<div class="plc-arrow content_center"><?php require ($_SERVER['WATCHIS'].'img/icon/next.svg')?></div>
 	  </a>
@@ -71,16 +71,16 @@
 	<div class="profile-list-container">
 	  <?php 
         $profile_array = array();
-        $profile_array[]=array('profile_icon'=>'home', 'profile_label'=>'Keluhan Pelanggan', 'profile_link'=>'profile');
-        $profile_array[]=array('profile_icon'=>'home', 'profile_label'=>'FAQ', 'profile_link'=>'profile');
-        $profile_array[]=array('profile_icon'=>'home', 'profile_label'=>'Tutorial', 'profile_link'=>'profile');
-        $profile_array[]=array('profile_icon'=>'home', 'profile_label'=>'Syarat dan Ketentuan', 'profile_link'=>'profile');
-        $profile_array[]=array('profile_icon'=>'home', 'profile_label'=>'Kebijakan Privasi', 'profile_link'=>'profile');
+        $profile_array[]=array('profile_icon'=>'complain', 'profile_label'=>'Keluhan Pelanggan', 'profile_link'=>'profile');
+        $profile_array[]=array('profile_icon'=>'faq', 'profile_label'=>'FAQ', 'profile_link'=>'profile');
+        $profile_array[]=array('profile_icon'=>'tutorial', 'profile_label'=>'Tutorial', 'profile_link'=>'profile');
+        $profile_array[]=array('profile_icon'=>'term', 'profile_label'=>'Syarat dan Ketentuan', 'profile_link'=>'profile');
+        $profile_array[]=array('profile_icon'=>'privacy', 'profile_label'=>'Kebijakan Privasi', 'profile_link'=>'profile');
 	    foreach($profile_array as $profile_list){ 
 	  ?>
 	  <a aria-label="<?php echo($profile_list['profile_label'])?>" title="<?php echo($profile_list['profile_label'])?>" class="plc-box" 
 	  href="<?php echo($profile_list['profile_link'])?>.php">
-	    <div class="plc-icon content_center"><?php require ($_SERVER['WATCHIS'].'img/icon/'.$profile_list['profile_icon'].'.svg')?></div>
+	    <div class="plc-icon content_center"><?php require ($_SERVER['WATCHIS'].'img/icon/profile-'.$profile_list['profile_icon'].'.svg')?></div>
 		<div class="plc-label"><?php echo($profile_list['profile_label'])?></div>
 		<div class="plc-arrow content_center"><?php require ($_SERVER['WATCHIS'].'img/icon/next.svg')?></div>
 	  </a>
@@ -91,16 +91,16 @@
   
   
   <section class="section-container profile-list">
-    <div class="section-title">Pengaturan</div>
+    <div class="section-title">Lainnya</div>
 	<div class="profile-list-container">
 	  <?php 
         $profile_array = array();
-        $profile_array[]=array('profile_icon'=>'home', 'profile_label'=>'Logout', 'profile_link'=>'index');
+        $profile_array[]=array('profile_icon'=>'logout', 'profile_label'=>'Logout', 'profile_link'=>'index');
 	    foreach($profile_array as $profile_list){ 
 	  ?>
 	  <a aria-label="<?php echo($profile_list['profile_label'])?>" title="<?php echo($profile_list['profile_label'])?>" class="plc-box" 
 	  href="<?php echo($profile_list['profile_link'])?>.php">
-	    <div class="plc-icon content_center"><?php require ($_SERVER['WATCHIS'].'img/icon/'.$profile_list['profile_icon'].'.svg')?></div>
+	    <div class="plc-icon content_center"><?php require ($_SERVER['WATCHIS'].'img/icon/profile-'.$profile_list['profile_icon'].'.svg')?></div>
 		<div class="plc-label"><?php echo($profile_list['profile_label'])?></div>
 		<div class="plc-arrow content_center"><?php require ($_SERVER['WATCHIS'].'img/icon/next.svg')?></div>
 	  </a>
