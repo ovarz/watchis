@@ -21,11 +21,20 @@
       'menu_icon'=>'messenger',
       'menu_link'=>'home'
     );
-    $menu_array[]=array(
-      'menu_name'=>'Profile',
-      'menu_icon'=>'profile',
-      'menu_link'=>'home'
-    );
+	if($login == 'no') {
+      $menu_array[]=array(
+        'menu_name'=>'Login',
+        'menu_icon'=>'login',
+        'menu_link'=>'login'
+      );
+	}
+	if($login == 'yes') {
+      $menu_array[]=array(
+        'menu_name'=>'Profile',
+        'menu_icon'=>'profile',
+        'menu_link'=>'profile'
+      );
+	}
     foreach($menu_array as $menu_list){ 
   ?>
     <a aria-label="<?php echo($menu_list['menu_name'])?>" title="<?php echo($menu_list['menu_name'])?>" 

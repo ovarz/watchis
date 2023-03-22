@@ -44,6 +44,21 @@
   <link rel="preload" href="img/intro.png" as="image">
 <?php } ?>
 
+<?php if($page == 'alquran') { ?>
+  <link rel="preload" href="css/alquran.css?<?php echo $anticache; ?>" as="style">
+  <link rel="stylesheet" type="text/css" href="css/alquran.css?<?php echo $anticache; ?>"/>
+<?php } ?>
+
+<?php if($page == 'socmed') { ?>
+  <link rel="preload" href="css/socmed.css?<?php echo $anticache; ?>" as="style">
+  <link rel="stylesheet" type="text/css" href="css/socmed.css?<?php echo $anticache; ?>"/>
+<?php } ?>
+
+<?php if($page == 'login-regis') { ?>
+  <link rel="preload" href="css/login-regis.css?<?php echo $anticache; ?>" as="style">
+  <link rel="stylesheet" type="text/css" href="css/login-regis.css?<?php echo $anticache; ?>"/>
+<?php } ?>
+
 <link rel="stylesheet" type="text/css" href="css/rancak.css?<?php echo $anticache; ?>"/>
 </head>
 <body class="theme-<?php echo $theme; ?>">

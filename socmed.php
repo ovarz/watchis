@@ -1,6 +1,7 @@
 <?php 
   $theme='light';
   $page='socmed';
+  $login='yes';
   $channel='socmed';
   $slideshow='no';
   $search_page='cari/'; 

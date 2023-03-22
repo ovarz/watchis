@@ -1,6 +1,7 @@
 <?php 
   $theme='light';
   $page='intro';
+  $login='no';
   $channel='';
   $slideshow='no';
   $search_page='cari/'; 
@@ -28,6 +29,26 @@
       </li>
       <li>
         <a class="pagelist-row" href="alquran.php">Halaman Al-Quran</a>
+      </li>
+      <li>
+        <div class="pagelist-row">Halaman User</div>
+		<ul>
+          <li>
+            <a class="pagelist-row" href="register.php">Halaman Registrasi</a>
+          </li>
+          <li>
+            <a class="pagelist-row" href="register-error.php">Halaman Registrasi Gagal</a>
+          </li>
+          <li>
+            <a class="pagelist-row" href="register-success.php">Halaman Registrasi Sukses</a>
+          </li>
+          <li>
+            <a class="pagelist-row" href="login.php">Halaman Login</a>
+          </li>
+          <li>
+            <a class="pagelist-row" href="profile.php">Halaman Profil</a>
+          </li>
+		</ul>
       </li>
     </ul>
   </div>

@@ -22,7 +22,8 @@
 </script>
 <script defer src="js/lazysizes.min.js"></script>
 <script defer rancak-hold="js/rancak.js"></script>
-
-
+<?php if($page == 'login-regis') { ?>
+  <script defer rancak-hold="js/login-regis.js"></script>
+<?php } ?>
 </body>
 </html>

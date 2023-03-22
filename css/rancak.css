@@ -14,6 +14,7 @@
   --max-zindex:2147483648;
   --default-fontsize:14px;
   --title-fontsize:16px;
+  --menu-height:64px;
   --bg-1:#FAFAFA; 
   --bg-2:#FFFFFF; 
 }
@@ -59,7 +60,7 @@ display:flex; text-align:center; align-items:center; justify-content:center;}
 
 menu{position:-webkit-sticky; position:sticky; z-index:calc(var(--max-zindex) - 5000); bottom:0; background-color:var(--bg-2);
 display:grid; grid-template-columns:repeat(5,1fr);}
-.menu-link{height:64px; font-weight:normal;}
+.menu-link{height:var(--menu-height); font-weight:normal;}
 .menu-link *{width:100%; line-height:100%; text-align:center;}
 .menu-icon .svgicon{width:auto; height:var(--size-4);}
 .menu-label{font-size:9px; margin-top:var(--size-1);}
@@ -108,86 +109,10 @@ display:grid; grid-template-columns:repeat(5,1fr);}
 
 
 
-.section-story{border-bottom:1px solid;}
-.section-story-list{display:grid; grid-gap:var(--size-3); grid-auto-flow: column; overflow-x:auto;}
-.story-box{width:77px;}
-.story-thumb-frame{width:100%; border:1px solid;}
-.story-thumb-frame:before{padding-top:100%;}
-.story-thumb-frame img{object-position:top center;}
-.story-username{text-align:center; font-size:11px; width:100%; line-height:100%; margin-top:var(--size-1); font-weight:normal;
-display:-webkit-box; -webkit-box-orient:vertical; -webkit-line-clamp:1; overflow:hidden;}
-
-
-
-.feed-box{--icon-size:30px; margin-bottom:var(--size-5); display:grid; grid-gap:var(--size-3);}
-.feed-head, .feed-user{display:flex;}
-.feed-head{justify-content:space-between;}
-.feed-avatar, .feed-button{width:var(--icon-size); height:var(--icon-size);}
-.feed-avatar{border-radius:50%;}
-.feed-username{display:flex; align-items:center; margin-left:var(--size-2);}
-.feed-button .svgicon{width:100%; height:auto;}
-.feed-menu-button{justify-content:flex-end;}
-.feed-menu-button .svgicon{width:55%; height:auto;}
-.feed-thumb:before{padding-top:56.25%;}
-.feed-nav{--nav-icon:24px; display:flex; flex-wrap:wrap; justify-content:space-between;}
-.feed-nav-left, .feed-nav-right{display:grid; grid-gap:var(--size-3); grid-auto-flow:column; grid-template-columns:repeat(auto-fit, minmax(var(--nav-icon),1fr));}
-.fnl-button .svgicon{width:auto; height:var(--nav-icon);}
-.feed-nav-full{width:100%; line-height:100%; margin-top:var(--size-2);}
-.feed-comment-show, .feed-date{font-size:10px; font-weight:normal;}
-.feed-comment-input{--icon-size:24px; display:grid; grid-gap:var(--size-2); grid-template-columns:var(--icon-size) 1fr;}
-.feed-comment-field{width:100%; background-color:transparent; border:0;}
-
-
-
-.ayat-box{--diamond-size:36px; border:1px solid; padding:var(--size-3); align-items:center;
-display:grid; grid-gap:var(--size-3); grid-template-columns:calc(var(--diamond-size) + var(--size-3)) 1fr 64px;}
-.ayat-box-number{display:flex; justify-content:center; min-height:calc(var(--diamond-size) + var(--size-3));}
-.ayat-box-number-rotate{width:var(--diamond-size); height:var(--diamond-size); transform:rotate(45deg); position:relative; top:var(--size-2);}
-.ayat-box-number-rotate > b{transform:rotate(-45deg); font-size:12px;}
-.ayat-box-arabic, .ayat-box-arabic img{height:var(--size-4);}
-.ayat-box-subtitle, .ayat-box-total{font-size:11px; font-weight:normal;}
-.ayat-box-info *{text-align:right;}
-.ayat-box-total{margin-top:var(--size-1);}
-
-
-
-.section-ayat-head{display:grid; grid-gap:var(--size-4);}
-
-.sah-bismillah-frame{width:100%; max-width:360px;}
-.sah-bismillah-frame:before{padding-top:13.95%;}
-.sah-search{--icon-size:48px; position:relative;}
-.sah-search-field, .sah-search-button{height:var(--icon-size);}
-.sah-search-field{width:100%; position:relative; z-index:1; padding:0 var(--icon-size);}
-.sah-search-button{position:absolute; top:0; width:var(--icon-size); z-index:1000;}
-.sah-search-left{left:0;}
-.sah-search-right{right:0;}
-
-.sah-populer-list{display:flex; flex-wrap:wrap;}
-.sah-populer-link{margin-right:var(--size-4); margin-top:var(--size-1); font-weight:normal; border-bottom:1px solid;}
-
-
-
-.ayat-history-container{display:grid; grid-gap:var(--size-3); grid-auto-flow:column; overflow-x:auto;}
-.ayat-history-box{width:144px; display:grid; grid-gap:var(--size-2); padding:var(--size-3);}
-.ahb-name, .ahb-number{font-weight:normal; text-align:center;}
-.ahb-arabic, .ahb-arabic img{height:var(--size-5);}
-.ahb-arabic img{width:auto;}
-
-
-
-.ayat-bookmark-container{display:grid; grid-gap:var(--size-3); grid-auto-flow:column; overflow-x:auto;}
-.ayat-bookmark-container .ayat-box{--diamond-size:30px; width:233px; padding:var(--size-2);}
-.ayat-bookmark-container .ayat-box-subtitle, .ayat-bookmark-container .ayat-box-total{font-size:9px;}
-.ayat-bookmark-container .ayat-box-title{font-size:12px;}
-.ayat-bookmark-container .ayat-box-arabic, .ayat-bookmark-container .ayat-box-arabic img{height:18px;}
-
-
-
-
-.ayat-list-container{display:grid; grid-gap:var(--size-3);}
-
-
-
 .section-story-list::-webkit-scrollbar, .ayat-history-container::-webkit-scrollbar, .ayat-bookmark-container::-webkit-scrollbar{height:1px;}
+
+
+
+.alert{padding:var(--size-3) var(--size-4);}
 
 

@@ -1,6 +1,7 @@
 <?php 
   $theme='light';
   $page='intro';
+  $login='no';
   $channel='';
   $slideshow='no';
   $search_page='cari/'; 

@@ -1,7 +1,8 @@
 <?php 
   $theme='dark';
   $page='alquran';
-  $channel='home';
+  $login='yes';
+  $channel='alquran';
   $slideshow='no';
   $search_page='cari/'; 
   require ('inc/base.php')
@@ -58,4 +59,5 @@
   </section>
   
 </div>
+<?php require ($_SERVER['WATCHIS'].'inc/menu.php')?>
 <?php require ($_SERVER['WATCHIS'].'inc/base-bottom.php')?>
