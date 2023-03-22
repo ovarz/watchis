@@ -3,8 +3,7 @@
   $page='login-regis';
   $login='no';
   $channel='login';
-  $slideshow='no';
-  $search_page='cari/'; 
+  $slideshow='no'; 
   require ('inc/base.php')
 ?>
 <?php require ($_SERVER['WATCHIS'].'inc/sample.php')?>

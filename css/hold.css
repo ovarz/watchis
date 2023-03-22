@@ -54,6 +54,10 @@ opacity:var(--hover-opacity);}
 
 
 
+.search-field{border-color:rgb(var(--color-border-dark) / 21%); background-color:transparent; border-radius:var(--rounded-1);}
+
+
+
 .section-title{color:var(--color-text-5);}
 .section-title:before{background-color:var(--color-text-4);}
 .section-ayat-title, .section-ayat-tab{border-color:rgb(var(--color-border-dark) / 21%);}
@@ -88,6 +92,10 @@ menu{box-shadow:0 -1px 8px rgb(0 0 0 / 13%);}
 
 .profile-thumb{border-radius:50%; border-color:var(--color-text-5);}
 .profile-name{color:var(--color-text-5);}
+
+
+
+.ddc-spell{color:var(--color-text-5);}
 
 
 

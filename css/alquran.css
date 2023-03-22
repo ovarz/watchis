@@ -11,6 +11,13 @@ display:grid; grid-gap:var(--size-3); grid-template-columns:calc(var(--diamond-s
 
 
 .section-ayat-head{display:grid; grid-gap:var(--size-4);}
+.section-ayat-title, .section-ayat-tab{border-bottom:1px solid; display:flex; margin-bottom:var(--size-3);}
+.sat-label, .ayat-tab-button{border-bottom:2px solid;}
+.ayat-tab-button{font-weight:normal; font-size:12px; margin-right:var(--size-3);}
+.ayat-tab-button .svgicon{width:auto; height:14px;}
+.ayat-tab-sort{margin-left:auto; margin-right:0;}
+
+
 
 .sah-bismillah-frame{width:100%; max-width:360px;}
 .sah-bismillah-frame:before{padding-top:13.95%;}

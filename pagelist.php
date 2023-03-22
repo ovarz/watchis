@@ -3,8 +3,7 @@
   $page='intro';
   $login='no';
   $channel='';
-  $slideshow='no';
-  $search_page='cari/'; 
+  $slideshow='no'; 
   require ('inc/base.php')
 ?>
 <?php require ($_SERVER['WATCHIS'].'inc/sample.php')?>
@@ -47,6 +46,17 @@
           </li>
           <li>
             <a class="pagelist-row" href="profile.php">Halaman Profil</a>
+          </li>
+		</ul>
+      </li>
+      <li>
+        <div class="pagelist-row">Halaman Do'a</div>
+		<ul>
+          <li>
+            <a class="pagelist-row" href="doa.php">Halaman Daftar Do'a</a>
+          </li>
+          <li>
+            <a class="pagelist-row" href="doa-detail.php">Halaman Detail Do'a</a>
           </li>
 		</ul>
       </li>
