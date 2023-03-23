@@ -58,6 +58,10 @@ display:flex; text-align:center; align-items:center; justify-content:center;}
 .notif-empty{min-height:calc(100vh - 125px);}
 .notif-empty .svgicon{max-width:144px;}
 
+.kiblat-container{min-height:calc(100vh - 125px);}
+.kiblat-image{width:233px;}
+.kiblat-image:before{padding-top:100%;}
+
 
 
 .search-box{--button-width:48px; position:relative; margin-bottom:var(--size-3);}
@@ -165,6 +169,13 @@ padding:var(--size-4) 0; border-bottom:1px solid rgb(var(--color-border-dark) / 
 .dzikir-button-reset{--button-size:26px; bottom:151px; left:160px;}
 .dzikir-number{position:absolute; z-index:1000; width:117px; height:50px; top:53px; left:58px; padding:0 var(--size-2);
 display:flex; justify-content:flex-end; align-items:center;}
+
+
+
+.section-tahlil{padding:var(--size-4) 0;}
+.section-tahlil .section-title{margin-left:var(--size-4); margin-right:var(--size-4);}
+.tahlil-list{display:grid; grid-gap:var(--size-2);}
+.tahlil-box img{position:static; height:auto;}
 
 
 
