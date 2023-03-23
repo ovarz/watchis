@@ -55,6 +55,9 @@ display:flex; text-align:center; align-items:center; justify-content:center;}
 .default-empty-title, .default-empty-desc{text-align:center; line-height:150%;}
 .default-empty-title{font-size:18px; font-weight:bold;}
 
+.notif-empty{min-height:calc(100vh - 125px);}
+.notif-empty .svgicon{max-width:144px;}
+
 
 
 .search-box{--button-width:48px; position:relative; margin-bottom:var(--size-3);}

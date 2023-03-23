@@ -13,7 +13,7 @@
 	  
 	  <?php if($channel == 'register-success') { ?>
         <div class="lrc-row alert alert-success">
-          Akun berhasil didaftarkan.
+          Akun berhasil didaftarkan. Data diri anda sedang kami proses. Silakan menunggu beberapa saat.
         </div>
 	  <?php } ?>
 	  

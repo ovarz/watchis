@@ -91,6 +91,9 @@
       <li>
         <a class="pagelist-row" href="dzikir.php">Halaman Dzikir</a>
       </li>
+      <li>
+        <a class="pagelist-row" href="notif-empty.php">Halaman Notifikasi</a>
+      </li>
     </ul>
   </div>
 </div>
