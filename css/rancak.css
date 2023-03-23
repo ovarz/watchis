@@ -153,6 +153,18 @@ padding:var(--size-4) 0; border-bottom:1px solid rgb(var(--color-border-dark) / 
 
 
 
+.dzikir-container{min-height:calc(100vh - 120px);}
+.dzikir-container > span{position:relative;}
+.dzikir-bg{width:233px; position:relative;}
+.dzikir-bg:before{padding-top:127.46%;}
+.dzikir-button{position:absolute; z-index:1000; width:var(--button-size); height:var(--button-size);}
+.dzikir-button-add{--button-size:98px; bottom:45px; left:69px;}
+.dzikir-button-reset{--button-size:26px; bottom:151px; left:160px;}
+.dzikir-number{position:absolute; z-index:1000; width:117px; height:50px; top:53px; left:58px; padding:0 var(--size-2);
+display:flex; justify-content:flex-end; align-items:center;}
+
+
+
 .alert{padding:var(--size-3) var(--size-4);}
 
 

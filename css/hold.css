@@ -109,6 +109,11 @@ menu{box-shadow:0 -1px 8px rgb(0 0 0 / 13%);}
 
 
 
+.dzikir-button{background-color:#908E8E; border-radius:50%;}
+.dzikir-number{color:var(--color-text-2); font-weight:bold; letter-spacing:1px; font-size:36px;}
+
+
+
 .alert{color:var(--bg-1); border-radius:var(--rounded-1);}
 .alert-success{background-color:#388E3C;}
 .alert-error{background-color:#D32F2F;}

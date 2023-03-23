@@ -88,6 +88,9 @@
           </li>
 		</ul>
       </li>
+      <li>
+        <a class="pagelist-row" href="dzikir.php">Halaman Dzikir</a>
+      </li>
     </ul>
   </div>
 </div>
