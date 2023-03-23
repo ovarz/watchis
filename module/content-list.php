@@ -6,12 +6,19 @@
   </div>
   
   <div class="content-info">
-    <a aria-label="Link_Title" title="Link_Title" class="content-info-channel" href="<?php echo $channel_link; ?>/">
-      Info Watchis
-    </a>
+	<?php if($content_type == 'article') { ?>
+      <a aria-label="Link_Title" title="Link_Title" class="content-info-channel" href="<?php echo $channel_link; ?>/">
+        Info Watchis
+      </a>
+	<?php } ?>
     <a aria-label="Link_Title" title="Link_Title" class="content-info-title" href="<?php echo $channel_link; ?>/detail.php">
       <h2><?php echo $random_title[array_rand($random_title)]; ?></h2>
     </a>
-	<!--<h3 class="content-info-desc"><?php echo $random_desc[array_rand($random_desc)]; ?></h3>-->
+	<?php if($content_type == 'video') { ?>
+	  <div class="content-info-misc">
+	    <div class="content-info-view">000Jt x ditonton</div>
+	    <div class="content-info-date">4 bulan lalu</div>
+	  </div>
+	<?php } ?>
   </div>
 </div>

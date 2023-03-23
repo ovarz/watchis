@@ -94,7 +94,7 @@ menu{box-shadow:0 -1px 8px rgb(0 0 0 / 13%);}
 
 
 
-.content-box{border-color:rgb(var(--color-border-dark) / 21%);}
+.content-box{border-color:rgb(var(--color-border-dark) / 13%);}
 .content-thumb-frame{border-radius:var(--rounded-1);}
 .content-info-channel{color:var(--color-text-5);}
 
@@ -111,6 +111,10 @@ menu{box-shadow:0 -1px 8px rgb(0 0 0 / 13%);}
 
 .dzikir-button{background-color:#908E8E; border-radius:50%;}
 .dzikir-number{color:var(--color-text-2); font-weight:bold; letter-spacing:1px; font-size:36px;}
+
+
+
+.jsn-title{color:var(--color-text-3);}
 
 
 

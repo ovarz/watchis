@@ -100,6 +100,9 @@
       <li>
         <a class="pagelist-row" href="tahlil.php">Halaman Tahlil</a>
       </li>
+      <li>
+        <a class="pagelist-row" href="jsn.php">Halaman JSN</a>
+      </li>
     </ul>
   </div>
 </div>

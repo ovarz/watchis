@@ -120,7 +120,7 @@
     <div class="section-title">Info Watchis</div>
 	<div class="section-article-list">
 	  <?php for ($i=1; $i <= 10 ; $i++) { ?>
-	    <?php require ($_SERVER['WATCHIS'].'module/content-list.php')?>
+	    <?php $content_type='article'; $channel_link=''; require ($_SERVER['WATCHIS'].'module/content-list.php')?>
 	  <?php } ?>
 	</div>
   </section>
