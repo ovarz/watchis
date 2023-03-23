@@ -74,6 +74,11 @@
   <link rel="stylesheet" type="text/css" href="css/zakat.css?<?php echo $anticache; ?>"/>
 <?php } ?>
 
+<?php if($page == 'adzan') { ?>
+  <link rel="preload" href="css/adzan.css?<?php echo $anticache; ?>" as="style">
+  <link rel="stylesheet" type="text/css" href="css/adzan.css?<?php echo $anticache; ?>"/>
+<?php } ?>
+
 <link rel="stylesheet" type="text/css" href="css/rancak.css?<?php echo $anticache; ?>"/>
 </head>
 <body class="theme-<?php echo $theme; ?>">

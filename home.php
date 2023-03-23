@@ -17,10 +17,10 @@
 	  <div class="hhc-top flex_ori thumb-loading">
 	    <img alt="img_title" class="lazyload" data-original="img/logo-icon.png" />
 	  </div>
-	  <div class="hhc-bottom">
+	  <a aria-label="Link_Title" title="Link_Title" class="hhc-bottom" href="adzan.php">
 	    <div class="hhc-bottom-time">Subuh 04:36 WIB</div>
 	    <div class="hhc-bottom-date">2 Februari 2023 / 11 Rajab 1444</div>
-	  </div>
+	  </a>
 	</div>
   </section>
   

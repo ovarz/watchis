@@ -95,8 +95,8 @@ display:grid; grid-template-columns:repeat(5,1fr);}
 .header-home-content{position:absolute; z-index:1000; top:0; left:0; width:100%; height:100%; padding-top:20%; display:flex; flex-wrap:wrap; align-content:space-between;}
 .hhc-top, .hhc-bottom{width:100%;}
 .hhc-top{width:60px; height:60px; margin:0 auto;}
-.hhc-bottom *{font-size:12px; text-align:center; color:var(--color-text-3);}
-.hhc-bottom-time{font-weight:bold;}
+.hhc-bottom *{font-size:12px; text-align:center;}
+.hhc-bottom-date{font-weight:normal;}
 
 
 
