@@ -2,3 +2,18 @@
 .zakat-list{display:grid; grid-gap:var(--size-4);}
 .zakat-label{margin-bottom:var(--size-1);}
 .zakat-button{width:100%;}
+
+.calculator-button, .zakat-head{margin-bottom:var(--size-4);}
+.calculator-button{width:100%;}
+.calculator-button .svgicon{margin-right:var(--size-2);}
+
+.zakat-head-title{margin-bottom:var(--size-1); font-weight:bold; color:var(--color-text-2); font-size:var(--title-fontsize);}
+.zakat-head-desc{line-height:150%;}
+
+
+
+.zakat-info{display:grid; grid-gap:var(--size-2); grid-auto-rows:min-content;}
+.zakat-progress, .zakat-progressbar{height:var(--size-2); border-radius:var(--size-4); overflow:hidden;}
+.zakat-progress{position:relative; width:100%; background-color:rgb(var(--color-border-dark) / 21%);}
+.zakat-progressbar{background-color:var(--color-text-2); position:absolute; top:0; left:0;}
+.zakat-misc{display:flex; justify-content:space-between; font-size:11px;}
