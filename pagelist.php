@@ -89,6 +89,17 @@
 		</ul>
       </li>
       <li>
+        <div class="pagelist-row">Halaman Zakat</div>
+		<ul>
+		  <li>
+			<a class="pagelist-row" href="zakat.php">Halaman Daftar Zakat</a>
+		  </li>
+		  <li>
+			<a class="pagelist-row" href="zakat-calculator.php">Halaman Kalkulator Zakat</a>
+		  </li>
+		</ul>
+      </li>
+      <li>
         <a class="pagelist-row" href="dzikir.php">Halaman Dzikir</a>
       </li>
       <li>
