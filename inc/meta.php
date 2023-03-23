@@ -49,6 +49,11 @@
   <link rel="stylesheet" type="text/css" href="css/alquran.css?<?php echo $anticache; ?>"/>
 <?php } ?>
 
+<?php if($page == 'alquran-dark') { ?>
+  <link rel="preload" href="css/alquran-dark.css?<?php echo $anticache; ?>" as="style">
+  <link rel="stylesheet" type="text/css" href="css/alquran-dark.css?<?php echo $anticache; ?>"/>
+<?php } ?>
+
 <?php if($page == 'socmed') { ?>
   <link rel="preload" href="css/socmed.css?<?php echo $anticache; ?>" as="style">
   <link rel="stylesheet" type="text/css" href="css/socmed.css?<?php echo $anticache; ?>"/>

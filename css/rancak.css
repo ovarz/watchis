@@ -50,6 +50,10 @@ display:flex; text-align:center; align-items:center; justify-content:center;}
 .default-tab{display:grid;}
 .default-tab-link{display:block; text-align:center; padding:var(--size-2); border-bottom:3px solid; text-transform:capitalize; font-weight:normal;}
 .default-tab-curr{font-weight:bold;}
+.default-empty > span{display:grid; grid-gap:var(--size-3);}
+.default-empty-icon .svgicon{height:auto; width:100%; fill:var(--color-text-1);}
+.default-empty-title, .default-empty-desc{text-align:center; line-height:150%;}
+.default-empty-title{font-size:18px; font-weight:bold;}
 
 
 

@@ -29,7 +29,7 @@
   <section class="section-container section-feature">
     <?php 
       $feature_array = array();
-      $feature_array[]=array('feature_name'=>'Belajar<br/>Al-Quran', 'feature_icon'=>'alquran', 'feature_link'=>'alquran');
+      $feature_array[]=array('feature_name'=>'Belajar<br/>Al-Quran', 'feature_icon'=>'alquran', 'feature_link'=>'alquran-surah');
       $feature_array[]=array('feature_name'=>'Belajar Kitab', 'feature_icon'=>'kitab', 'feature_link'=>'home');
       $feature_array[]=array('feature_name'=>'Pesantern Online', 'feature_icon'=>'pesantren', 'feature_link'=>'home');
       $feature_array[]=array('feature_name'=>'Ngaji Online', 'feature_icon'=>'ngaji', 'feature_link'=>'home');

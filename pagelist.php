@@ -27,7 +27,24 @@
         <a class="pagelist-row" href="socmed.php">Halaman Social Media</a>
       </li>
       <li>
-        <a class="pagelist-row" href="alquran.php">Halaman Al-Quran</a>
+        <div class="pagelist-row">Halaman Al-Quran</div>
+		<ul>
+          <li>
+            <a class="pagelist-row" href="alquran-surah.php">Halaman Daftar Surah</a>
+          </li>
+          <li>
+            <a class="pagelist-row" href="alquran-juz.php">Halaman Daftar Juz</a>
+          </li>
+          <li>
+            <a class="pagelist-row" href="alquran-saved.php">Halaman Daftar Surah Yang Tersimpan</a>
+          </li>
+          <li>
+            <a class="pagelist-row" href="alquran-detail.php">Halaman Detail Surah</a>
+          </li>
+          <li>
+            <a class="pagelist-row" href="alquran-dark.php">Halaman Utama Al-Quran <br> (Alternatif Desain)</a>
+          </li>
+		</ul>
       </li>
       <li>
         <div class="pagelist-row">Halaman User</div>

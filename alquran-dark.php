@@ -1,6 +1,6 @@
 <?php 
   $theme='dark';
-  $page='alquran';
+  $page='alquran-dark';
   $login='yes';
   $channel='alquran';
   $slideshow='no'; 

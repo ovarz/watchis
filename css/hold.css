@@ -10,6 +10,7 @@
   --color-text-4:#E5420E;
   --color-text-5:#00675B;
   --color-text-6:#000000;
+  --color-text-7:#52c6b8;
   --color-fb:#1877f2;
   --color-ig:#C13584;
   --color-tw:#00acec;
@@ -58,6 +59,12 @@ opacity:var(--hover-opacity);}
 .default-field::placeholder{color:rgb(var(--color-border-dark) / 21%);}
 .default-tab-link{color:var(--color-text-1); border-color:rgb(var(--color-border-dark) / 13%);}
 .default-tab-curr{color:var(--color-text-2); border-color:var(--color-text-2);}
+.default-empty-icon{fill:var(--color-text-1);}
+.default-empty-title{color:var(--color-text-2);}
+
+
+
+.search-button{fill:var(--color-text-3);}
 
 
 
@@ -98,7 +105,7 @@ menu{box-shadow:0 -1px 8px rgb(0 0 0 / 13%);}
 
 
 
-.ddc-spell{color:var(--color-text-5);}
+.ddc-spell{color:var(--color-text-7);}
 
 
 

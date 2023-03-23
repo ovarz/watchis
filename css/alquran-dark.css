@@ -1,0 +1,54 @@
+.ayat-box{--diamond-size:36px; border:1px solid rgb(var(--color-border-dark) / 21%); padding:var(--size-3); align-items:center; border-radius:var(--rounded-1);
+display:grid; grid-gap:var(--size-3); grid-template-columns:calc(var(--diamond-size) + var(--size-3)) 1fr 64px;}
+.ayat-box-number{display:flex; justify-content:center; min-height:calc(var(--diamond-size) + var(--size-3));}
+.ayat-box-number-rotate{width:var(--diamond-size); height:var(--diamond-size); transform:rotate(45deg); position:relative; top:var(--size-2); background-color:var(--bg-3);}
+.ayat-box-number-rotate > b{transform:rotate(-45deg); font-size:12px;}
+.ayat-box-arabic, .ayat-box-arabic img{height:var(--size-4);}
+.ayat-box-subtitle, .ayat-box-total{font-size:11px; font-weight:normal; color:var(--color-text-1);}
+.ayat-box-info *{text-align:right;}
+.ayat-box-total{margin-top:var(--size-1);}
+
+
+
+.section-ayat-head{display:grid; grid-gap:var(--size-4);}
+.section-ayat-title, .section-ayat-tab{border-bottom:1px solid; display:flex; margin-bottom:var(--size-3);}
+.sat-label, .ayat-tab-button{border-bottom:2px solid;}
+.ayat-tab-button{font-weight:normal; font-size:12px; margin-right:var(--size-3);}
+.ayat-tab-button .svgicon{width:auto; height:14px;}
+.ayat-tab-sort{margin-left:auto; margin-right:0;}
+
+
+
+.sah-bismillah-frame{width:100%; max-width:360px;}
+.sah-bismillah-frame:before{padding-top:13.95%;}
+.sah-search{--icon-size:48px; position:relative;}
+.sah-search-field, .sah-search-button{height:var(--icon-size);}
+.sah-search-field{width:100%; position:relative; z-index:1; padding:0 var(--icon-size); background-color:var(--color-text-2); color:var(--bg-2); border-radius:var(--size-5);}
+.sah-search-button{position:absolute; top:0; width:var(--icon-size); z-index:1000; fill:var(--color-text-1);}
+.sah-search-left{left:0;}
+.sah-search-right{right:0;}
+
+.sah-populer-list{display:flex; flex-wrap:wrap;}
+.sah-populer-link{margin-right:var(--size-4); margin-top:var(--size-1); font-weight:normal; border-bottom:1px solid rgb(var(--color-border-dark) / 21%);;}
+
+
+
+.ayat-history-container{display:grid; grid-gap:var(--size-3); grid-auto-flow:column; overflow-x:auto;}
+.ayat-history-box{width:144px; display:grid; grid-gap:var(--size-2); padding:var(--size-3); border-radius:var(--rounded-2); background-color:var(--bg-3);}
+.ahb-name, .ahb-number{font-weight:normal; text-align:center;}
+.ahb-number{color:var(--color-text-1);}
+.ahb-arabic, .ahb-arabic img{height:var(--size-5);}
+.ahb-arabic img{width:auto;}
+
+
+
+.ayat-bookmark-container{display:grid; grid-gap:var(--size-3); grid-auto-flow:column; overflow-x:auto;}
+.ayat-bookmark-container .ayat-box{--diamond-size:30px; width:233px; padding:var(--size-2);}
+.ayat-bookmark-container .ayat-box-subtitle, .ayat-bookmark-container .ayat-box-total{font-size:9px;}
+.ayat-bookmark-container .ayat-box-title{font-size:12px;}
+.ayat-bookmark-container .ayat-box-arabic, .ayat-bookmark-container .ayat-box-arabic img{height:18px;}
+
+
+
+
+.ayat-list-container{display:grid; grid-gap:var(--size-3);}
