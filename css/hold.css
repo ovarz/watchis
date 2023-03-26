@@ -81,6 +81,10 @@ menu{box-shadow:0 -1px 8px rgb(0 0 0 / 13%);}
 
 
 
+.header-home{background-color:var(--bg-4); color:var(--color-text-2); fill:var(--color-text-2); border-color:var(--bg-5); border-radius:var(--rounded-2);}
+.hht-button{fill:var(--color-text-2);}
+.header-home-bottom{background-color:var(--color-text-7); border-radius:var(--size-4);}
+
 .hhc-bottom-date{color:var(--color-text-1);}
 
 

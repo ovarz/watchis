@@ -9,33 +9,18 @@
 <?php require ($_SERVER['WATCHIS'].'inc/sample.php')?>
 <?php require ($_SERVER['WATCHIS'].'inc/meta.php')?>
 <div class="rancak-container">
-  <section class="section-container">
-    <div class="header-home">
-      <div class="header-home-top">
-        <div class="hht-left">
-          <div class="hht-greeting">Halo Guest</div>
-          <div class="hht-welcome">Selamat Datang di Watchis</div>
-        </div>
-        <div class="hht-right">
-          <a aria-label="Notifikasi" title="Notifikasi" class="hht-button" href="notif-empty.php">
-            <?php require ($_SERVER['WATCHIS'].'img/icon/notif-on.svg')?>
-          </a>
-          <a aria-label="Profile" title="Profile" class="hht-button" href="login.php">
-            <?php require ($_SERVER['WATCHIS'].'img/icon/menu-profile.svg')?>
-          </a>
-        </div>
-      </div>
-	  
-      <div class="header-home-bottom">
-        <div class="hhb-left">
-          <div class="hhb-loc-icon"><?php require ($_SERVER['WATCHIS'].'img/icon/location.svg')?></div>
-          <div class="hhb-loc-name">DKI Jakarta</div>
-        </div>
-        <div class="hhb-right">
-          <div class="hhb-loc-name">Isya, 19:10 WIB</div>
-          <div class="hhb-loc-icon"><?php require ($_SERVER['WATCHIS'].'img/icon/sound-on.svg')?></div>
-        </div>
-      </div>
+  <section class="header-home">
+    <div class="header-home-bg flex_ori thumb-loading">
+	  <img alt="img_title" class="lazyload" data-original="img/home-header.png" />
+	</div>
+	<div class="header-home-content">
+	  <div class="hhc-top flex_ori thumb-loading">
+	    <img alt="img_title" class="lazyload" data-original="img/logo-icon.png" />
+	  </div>
+	  <a aria-label="Link_Title" title="Link_Title" class="hhc-bottom" href="adzan.php">
+	    <div class="hhc-bottom-time">Subuh 04:36 WIB</div>
+	    <div class="hhc-bottom-date">2 Februari 2023 / 11 Rajab 1444</div>
+	  </a>
 	</div>
   </section>
   
@@ -44,14 +29,16 @@
   <section class="section-container section-feature">
     <?php 
       $feature_array = array();
-      $feature_array[]=array('feature_name'=>'Al-Quran', 'feature_icon'=>'alquran', 'feature_link'=>'alquran-surah');
-      $feature_array[]=array('feature_name'=>'Kiblat', 'feature_icon'=>'kiblat', 'feature_link'=>'kiblat');
-      $feature_array[]=array('feature_name'=>'Sholawat', 'feature_icon'=>'sholawat', 'feature_link'=>'sholawat');
-      $feature_array[]=array('feature_name'=>'Tahlil', 'feature_icon'=>'tahlil', 'feature_link'=>'tahlil');
-      $feature_array[]=array('feature_name'=>"Do'a", 'feature_icon'=>'doa', 'feature_link'=>'doa');
-      $feature_array[]=array('feature_name'=>'Dzikir', 'feature_icon'=>'dzikir', 'feature_link'=>'dzikir');
-      $feature_array[]=array('feature_name'=>'JSN', 'feature_icon'=>'jsn', 'feature_link'=>'jsn');
-      $feature_array[]=array('feature_name'=>'JIS', 'feature_icon'=>'jis', 'feature_link'=>'zakat');
+      $feature_array[]=array('feature_name'=>'Belajar<br/>Al-Quran', 'feature_icon'=>'alquran', 'feature_link'=>'alquran-surah');
+      $feature_array[]=array('feature_name'=>'Belajar Kitab', 'feature_icon'=>'kitab', 'feature_link'=>'home');
+      $feature_array[]=array('feature_name'=>'Pesantern Online', 'feature_icon'=>'pesantren', 'feature_link'=>'home');
+      $feature_array[]=array('feature_name'=>'Ngaji Online', 'feature_icon'=>'ngaji', 'feature_link'=>'home');
+      $feature_array[]=array('feature_name'=>'Info Watchis', 'feature_icon'=>'info', 'feature_link'=>'home');
+      $feature_array[]=array('feature_name'=>'Peta', 'feature_icon'=>'peta', 'feature_link'=>'home');
+      $feature_array[]=array('feature_name'=>'Kurban', 'feature_icon'=>'kurban', 'feature_link'=>'home');
+      $feature_array[]=array('feature_name'=>'Zakat', 'feature_icon'=>'zakat', 'feature_link'=>'zakat');
+      $feature_array[]=array('feature_name'=>'Sedekah', 'feature_icon'=>'sedekah', 'feature_link'=>'home');
+      $feature_array[]=array('feature_name'=>'Lainnya', 'feature_icon'=>'lainnya', 'feature_link'=>'home');
       foreach($feature_array as $feature_list){ 
     ?>
       <a aria-label="<?php echo($feature_list['feature_name'])?>" title="<?php echo($feature_list['feature_name'])?>" class="section-feature-link" 
