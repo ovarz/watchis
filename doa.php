@@ -8,9 +8,9 @@
 ?>
 <?php require ($_SERVER['WATCHIS'].'inc/sample.php')?>
 <?php require ($_SERVER['WATCHIS'].'inc/meta.php')?>
+<?php $page_label="Do'a"; $page_link=""; require ($_SERVER['WATCHIS'].'module/page-title.php')?>
 <div class="rancak-container">
   <section class="section-container doa-list">
-    <div class="section-title">Do'a</div>
 	<?php require ($_SERVER['WATCHIS'].'module/search-box.php')?>
 	<div class="doa-list-container">
 	  <?php 

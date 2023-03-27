@@ -8,11 +8,10 @@
 ?>
 <?php require ($_SERVER['WATCHIS'].'inc/sample.php')?>
 <?php require ($_SERVER['WATCHIS'].'inc/meta.php')?>
+<?php $page_label="Zakat"; $page_link=""; require ($_SERVER['WATCHIS'].'module/page-title.php')?>
 <div class="rancak-container">
   <section class="section-container section-zakat">
-    <div class="section-title">ZIS</div>
-	
-	<a aria-label="Link_Title" title="Link_Title" class="btn calculator-button" href="zakat-calculator.php">
+    <a aria-label="Link_Title" title="Link_Title" class="btn calculator-button" href="zakat-calculator.php">
 	  <?php require ($_SERVER['WATCHIS'].'img/icon/calculator.svg')?>
 	  <span>Kalkulator Zakat</span>
 	</a>

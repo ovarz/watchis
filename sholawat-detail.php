@@ -8,12 +8,9 @@
 ?>
 <?php require ($_SERVER['WATCHIS'].'inc/sample.php')?>
 <?php require ($_SERVER['WATCHIS'].'inc/meta.php')?>
+<?php $page_label="Sholawat Asyghil"; $page_link="sholawat.php"; require ($_SERVER['WATCHIS'].'module/page-title.php')?>
 <div class="rancak-container">
   <section class="section-container doa-detail">
-    <a aria-label="Back To Sholawat" title="Back To Sholawat" class="section-title-link" href="sholawat.php">
-	  <div class="section-title-icon"><?php require ($_SERVER['WATCHIS'].'img/icon/prev.svg')?></div>
-	  <div class="section-title-label">Sholawat Asyghil</div>
-	</a>
 	<div class="doa-detail-container">
 	  <div class="ddc-desc">
 	    <p>Sholawat Asyghil merupakan bentuk sholawat yang populer dibaca oleh masyarakat Indonesia, terutama masyarakat NU dan kalangan pesantren. Hampir dalam setiap istighasah, sholawat ini termasuk bacaan utama yang harus dikumandangkan secara berjemaah.</p>

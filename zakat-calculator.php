@@ -8,13 +8,8 @@
 ?>
 <?php require ($_SERVER['WATCHIS'].'inc/sample.php')?>
 <?php require ($_SERVER['WATCHIS'].'inc/meta.php')?>
+<?php $page_label="Kalkulator Zakat"; $page_link="zakat.php"; require ($_SERVER['WATCHIS'].'module/page-title.php')?>
 <div class="rancak-container">
-  <section class="section-container">
-    <div class="section-title section-title-single">Zakat</div>
-  </section>
-  
-  
-  
   <section class="default-tab zakat-tab">
     <?php 
       $tab_array = array();

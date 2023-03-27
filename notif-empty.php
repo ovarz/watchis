@@ -8,14 +8,9 @@
 ?>
 <?php require ($_SERVER['WATCHIS'].'inc/sample.php')?>
 <?php require ($_SERVER['WATCHIS'].'inc/meta.php')?>
+<?php $page_label="Notifikasi"; $page_link=""; require ($_SERVER['WATCHIS'].'module/page-title.php')?>
 <div class="rancak-container">
-  <section class="section-container">
-    <div class="section-title section-title-single">Notifikasi</div>
-  </section>
-  
-  
-  
-  <section class="section-container default-empty notif-empty content_center">
+  <section class="section-container default-full notif-empty content_center">
     <span>
       <div class="default-empty-icon content_center">
         <?php require ($_SERVER['WATCHIS'].'img/icon/empty-notif.svg')?>

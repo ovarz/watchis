@@ -85,7 +85,7 @@
         speed:333,
         items:1,
         gutter:5, 
-        edgePadding:0,
+        edgePadding:21,
         controls:false,
         nav:true,
         mouseDrag:true,

@@ -1,4 +1,3 @@
-.login-regis{min-height:calc(100vh - var(--menu-height));}
 .login-regis-container{width:100%;}
 .lrc-form{display:grid; grid-gap:var(--size-4);}
 .lrc-box{position:relative;}

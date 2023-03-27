@@ -8,16 +8,8 @@
 ?>
 <?php require ($_SERVER['WATCHIS'].'inc/sample.php')?>
 <?php require ($_SERVER['WATCHIS'].'inc/meta.php')?>
+<?php $page_label="Al-Qur'an"; $page_link="alquran-surah.php"; require ($_SERVER['WATCHIS'].'module/page-title.php')?>
 <div class="rancak-container">
-  <section class="section-container">
-    <a aria-label="Back To Do'a" title="Back To Do'a" class="section-title-link section-title-single" href="alquran-surah.php">
-	  <div class="section-title-icon"><?php require ($_SERVER['WATCHIS'].'img/icon/prev.svg')?></div>
-	  <div class="section-title-label">Al-Qur'an</div>
-	</a>
-  </section>
-  
-  
-  
   <nav class="surah-nav">
     <a aria-label="Prev" title="Prev" class="surah-nav-button surah-nav-prev content_center" href="alquran-detail.php">
 	  <div class="surah-nav-container content_center">

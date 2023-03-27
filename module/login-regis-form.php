@@ -1,9 +1,5 @@
-<section class="section-container login-regis content_center">
+<section class="section-container default-full login-regis content_center">
   <div class="login-regis-container">
-    <div class="section-title">
-	  <?php if($form_type == 'login') { ?>Login<?php } ?>
-	  <?php if($form_type == 'register') { ?>Registrasi<?php } ?>
-	</div>
     <div class="lrc-form">
 	  <?php if($channel == 'register-error') { ?>
         <div class="lrc-row alert alert-error">
