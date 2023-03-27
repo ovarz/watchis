@@ -113,11 +113,11 @@ display:grid; grid-template-columns:repeat(auto-fit, minmax(var(--menu-height),1
 
 
 
-.section-feature{--box-width:80px; display:flex; flex-wrap:wrap; justify-content:center; padding-bottom:0;}
+.section-feature{--box-width:56px; display:flex; flex-wrap:wrap; justify-content:center; padding:var(--size-4) var(--size-3) 0;}
 .section-feature-link{margin:var(--size-3); width:var(--box-width);}
 .sfl-circle{width:var(--box-width); height:var(--box-width);}
 .sfl-circle img{width:auto; height:55%;}
-.sfl-name{font-weight:normal; text-align:center; font-size:12px; margin-top:var(--size-1);}
+.sfl-name{font-weight:normal; text-align:center; font-size:11px; margin-top:var(--size-1);}
 
 
 
