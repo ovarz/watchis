@@ -15,7 +15,7 @@
 
 <div class="rancak-container">
   <main class="section-container detail-main">
-	<?php require ($_SERVER['WATCHIS'].'module/detail-head.php')?>
+	<?php $content_type='article'; require ($_SERVER['WATCHIS'].'module/detail-head.php')?>
 	<?php require ($_SERVER['WATCHIS'].'module/detail-content.php')?>
   </main>
   

@@ -144,6 +144,7 @@ display:grid; grid-template-columns:repeat(auto-fit, minmax(var(--menu-height),1
 .content-info-desc{line-height:150%;}
 .content-info-misc{display:flex; flex-wrap:wrap; position:relative; margin-top:var(--size-1);}
 .content-info-misc div{position:relative; font-size:11px;}
+.content-info-view:after{content:'-'; display:inline-block; margin:0 var(--size-2);}
 
 .section-video-list{display:grid; grid-template-columns:repeat(2,1fr); grid-gap:var(--size-3) var(--size-4);}
 .section-video-list .content-box{border-bottom:0; grid-template-columns:1fr; grid-gap:var(--size-2); grid-auto-rows:min-content;}
