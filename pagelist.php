@@ -27,6 +27,17 @@
         <a class="pagelist-row" href="socmed.php">Halaman Social Media</a>
       </li>
       <li>
+        <div class="pagelist-row">Halaman Detail</div>
+		<ul>
+          <li>
+            <a class="pagelist-row" href="detail-article.php">Halaman Detail Artikel</a>
+          </li>
+          <li>
+            <a class="pagelist-row" href="detail-video.php">Halaman Detail Video</a>
+          </li>
+		</ul>
+      </li>
+      <li>
         <div class="pagelist-row">Halaman Al-Quran</div>
 		<ul>
           <li>

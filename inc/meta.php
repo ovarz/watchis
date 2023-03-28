@@ -44,6 +44,8 @@
   <link rel="preload" href="img/intro.png" as="image">
 <?php } ?>
 
+<link rel="stylesheet" type="text/css" href="css/rancak.css?<?php echo $anticache; ?>"/>
+
 <?php if($page == 'alquran') { ?>
   <link rel="preload" href="css/alquran.css?<?php echo $anticache; ?>" as="style">
   <link rel="stylesheet" type="text/css" href="css/alquran.css?<?php echo $anticache; ?>"/>
@@ -79,6 +81,10 @@
   <link rel="stylesheet" type="text/css" href="css/adzan.css?<?php echo $anticache; ?>"/>
 <?php } ?>
 
-<link rel="stylesheet" type="text/css" href="css/rancak.css?<?php echo $anticache; ?>"/>
+<?php if($page == 'detail') { ?>
+  <link rel="preload" href="css/detail.css?<?php echo $anticache; ?>" as="style">
+  <link rel="stylesheet" type="text/css" href="css/detail.css?<?php echo $anticache; ?>"/>
+<?php } ?>
+
 </head>
 <body class="theme-<?php echo $theme; ?>">

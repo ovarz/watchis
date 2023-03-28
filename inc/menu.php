@@ -11,6 +11,13 @@
       'menu_icon'=>'video',
       'menu_link'=>'home'
     );
+	if($share == 'yes') {
+      $menu_array[]=array(
+        'menu_name'=>'Share',
+        'menu_icon'=>'share',
+        'menu_link'=>'home'
+      );
+	}
 	if($login == 'no') {
       $menu_array[]=array(
         'menu_name'=>'Login',

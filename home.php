@@ -26,7 +26,7 @@
         </div>
       </div>
 	  
-      <div class="header-home-bottom">
+      <a aria-label="Adzan" title="Adzan" class="header-home-bottom" href="adzan.php">
         <div class="hhb-left">
           <div class="hhb-loc-icon"><?php require ($_SERVER['WATCHIS'].'img/icon/location.svg')?></div>
           <div class="hhb-loc-name">DKI Jakarta</div>
@@ -35,7 +35,7 @@
           <div class="hhb-loc-name">Isya, 19:10 WIB</div>
           <div class="hhb-loc-icon"><?php require ($_SERVER['WATCHIS'].'img/icon/sound-on.svg')?></div>
         </div>
-      </div>
+      </a>
 	</div>
   </section>
   
@@ -133,10 +133,10 @@
     <div class="section-title">Info Watchis</div>
 	<div class="section-article-list">
 	  <?php for ($i=1; $i <= 10 ; $i++) { ?>
-	    <?php $content_type='article'; $channel_link=''; require ($_SERVER['WATCHIS'].'module/content-list.php')?>
+	    <?php $content_type='article'; $detail_link='detail-article'; require ($_SERVER['WATCHIS'].'module/content-list.php')?>
 	  <?php } ?>
 	</div>
   </section>
 </div>
-<?php require ($_SERVER['WATCHIS'].'inc/menu.php')?>
+<?php $share='no'; require ($_SERVER['WATCHIS'].'inc/menu.php')?>
 <?php require ($_SERVER['WATCHIS'].'inc/base-bottom.php')?>

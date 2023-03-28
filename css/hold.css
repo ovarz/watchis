@@ -87,8 +87,8 @@ menu{box-shadow:0 -1px 8px rgb(0 0 0 / 13%);}
 
 
 .header-home{background-color:var(--color-text-2); color:var(--bg-1); fill:var(--bg-1); border-radius:var(--rounded-2);}
-.hht-button{fill:var(--color-text-2);}
-.header-home-bottom{background-color:var(--color-text-1); border-radius:var(--size-4);}
+.hht-button{fill:var(--bg-2);}
+.header-home-bottom{background-color:var(--color-text-1); color:var(--bg-1); fill:var(--bg-1); border-radius:var(--size-4);}
 
 .hhc-bottom-date{color:var(--color-text-1);}
 
@@ -110,6 +110,13 @@ menu{box-shadow:0 -1px 8px rgb(0 0 0 / 13%);}
 .content-box{border-color:rgb(var(--color-border-dark) / 13%);}
 .content-thumb-frame{border-radius:var(--rounded-1);}
 .content-info-channel{color:var(--color-text-5);}
+
+.article-title{color:var(--color-text-2);}
+
+.detail-content{color:var(--color-text-2);}
+.detail-content a{color:var(--color-text-3);}
+.detail-content a:hover, .detail-content b, .detail-content strong{color:var(--color-text-2);}
+.detail-content-image{border-radius:var(--rounded-1); overflow:hidden;}
 
 
 

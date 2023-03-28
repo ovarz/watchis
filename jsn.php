@@ -17,10 +17,10 @@
 	</div>
 	<div class="section-video-list">
 	  <?php for ($i=1; $i <= 10 ; $i++) { ?>
-	    <?php $content_type='video'; $channel_link=''; require ($_SERVER['WATCHIS'].'module/content-list.php')?>
+	    <?php $content_type='video'; $detail_link='detail-video'; require ($_SERVER['WATCHIS'].'module/content-list.php')?>
 	  <?php } ?>
 	</div>
   </section>
 </div>
-<?php require ($_SERVER['WATCHIS'].'inc/menu.php')?>
+<?php $share='no'; require ($_SERVER['WATCHIS'].'inc/menu.php')?>
 <?php require ($_SERVER['WATCHIS'].'inc/base-bottom.php')?>

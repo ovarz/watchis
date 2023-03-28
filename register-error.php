@@ -12,5 +12,5 @@
 <div class="rancak-container">
   <?php $form_type='register'; $form_error='yes'; $form_next='register-success'; require ($_SERVER['WATCHIS'].'module/login-regis-form.php')?>
 </div>
-<?php require ($_SERVER['WATCHIS'].'inc/menu.php')?>
+<?php $share='no'; require ($_SERVER['WATCHIS'].'inc/menu.php')?>
 <?php require ($_SERVER['WATCHIS'].'inc/base-bottom.php')?>

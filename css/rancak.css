@@ -103,7 +103,7 @@ display:grid; grid-template-columns:repeat(auto-fit, minmax(var(--menu-height),1
 .hht-right{display:flex;}
 .hht-button{margin-left:var(--size-4);}
 .hht-button .svgicon{width:auto; height:27px;}
-.header-home-bottom{padding:var(--size-2) var(--size-3); margin-top:var(--size-3);}
+.header-home-bottom{padding:var(--size-2) var(--size-3); margin-top:var(--size-3); font-weight:bold;}
 .hhb-left, .hhb-right{display:flex;}
 .hhb-left > *, .hhb-right > *{display:flex; align-items:center; line-height:100%;}
 .hhb-loc-icon .svgicon{width:auto; height:16px;}
